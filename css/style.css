@@ -1,9 +1,95 @@
 h1 {
   font-family: "Nunito", sans-serif;
   font-weight: 800;
+  font-size: 72px;
 }
 
 h2 {
   font-family: "Nunito", sans-serif;
   font-weight: 400;
+  font-size: 24px;
+}
+
+.navbar-font {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.navbar-margin {
+  padding: 20px 80px;
+}
+
+.home-mainphoto {
+  width: 100%;
+  height: auto;
+  opacity: 80%;
+}
+
+.container {
+  margin: 40px auto;
+}
+
+h5 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #f8f9fa;
+}
+
+footer {
+  background-color: #f8f9fa;
+}
+
+small {
+  font-size: 10px;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+@media (max-width: 992px) {
+  .main-photo {
+    display: none;
+  }
+  .centered {
+    color: black;
+    padding: 120px 40px 0px 40px;
+    position: relative;
+    transform: none;
+    top: auto;
+    left: auto;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16x;
+  }
 }
