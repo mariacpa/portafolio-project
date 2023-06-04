@@ -52,6 +52,10 @@ a {
   color: black;
 }
 
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
 .centered {
   position: absolute;
   top: 50%;
