@@ -10,16 +10,18 @@ p {
 h1 {
   font-weight: 800;
   font-size: 72px;
+  text-align: center;
 }
 
 h2 {
   font-weight: 400;
-  font-size: 26px;
+  font-size: 36px;
+  text-align: center;
 }
 
 h3 {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 26px;
 }
 
 .navbar-font {
@@ -65,6 +67,26 @@ a {
   color: #f8f9fa;
 }
 
+.about-me {
+  margin: 120px 0 40px 0;
+}
+
+.about-info {
+  padding: 40px 250px;
+  width: 100%;
+  height: auto;
+}
+
+.all-began-info {
+  padding: 40px 120px;
+}
+
+.all-began-color p {
+  background-color: #cee0e5;
+  padding: 20px;
+  border-radius: 4px;
+}
+
 footer {
   background-color: #f8f9fa;
 }
@@ -88,13 +110,33 @@ small {
   }
 
   h2 {
-    font-size: 18px;
+    font-size: 24px;
   }
 
-  h5 {
+  h3 {
     font-size: 20px;
   }
-  .card-text-font p {
-    font-size: 15x;
+
+  p {
+    font-size: 14px;
+  }
+  
+  .all-began-info {
+    padding: 10px;
+  }
+
+  .all-began-color p {
+    background-color: #cee0e5;
+    border-radius: 4px;
+  }
+
+  .about-me {
+    margin: 100px 0 10px 0;
+  }
+
+  .about-info {
+    padding: 0;
+    text-align: center;
+    margin: 0;
   }
 }
