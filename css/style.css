@@ -95,6 +95,10 @@ small {
   font-size: 10px;
 }
 
+.services {
+  margin: 120px 100px;
+}
+
 @media (max-width: 992px) {
   .centered {
     color: black;

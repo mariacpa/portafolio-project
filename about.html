@@ -32,34 +32,67 @@
       class="navbar navbar-expand-lg bg-body-tertiary navbar-font fixed-top navbar-margin"
     >
       <div class="container-fluid">
-        <a class="navbar-brand" href="/">Ron Foux</a>
+        <a class="navbar-brand" href="#">Ron Foux</a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link ps-4 active" aria-current="page" href="/"
-              >Home</a
-            >
-            <a class="nav-link ps-4" href="/about.html" title="About Me"
-              >About</a
-            >
-            <a class="nav-link ps-4" href="#" title="How Can I Help"
-              >How I Can Help</a
-            >
-            <a class="nav-link ps-4" href="#" title="Recipe Collection"
-              >Recipe Collection</a
-            >
-            <a class="nav-link ps-4" href="#" title="Contact">Contact</a>
-          </div>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active ps-4"
+                aria-current="page"
+                href="/"
+                title="Home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ps-4" href="/about.html" title="About me"
+                >About</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle ps-4"
+                href="/service.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                title="How Can I Help"
+              >
+                How Can I Help
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="/services/adjusted-nutrition.html"
+                    >Adjusted Nutrition</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/services/cooking.html"
+                    >Cooking</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Workshops</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ps-4" href="#">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
