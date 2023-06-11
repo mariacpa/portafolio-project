@@ -102,6 +102,11 @@ small {
   color: #662eed;
 }
 
+.brand-link {
+  color: #662eed;
+  font-weight: bold;
+}
+
 @media (max-width: 992px) {
   .centered {
     color: black;
