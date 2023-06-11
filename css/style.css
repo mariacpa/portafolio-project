@@ -75,7 +75,11 @@ a {
   margin: 120px 80px 80px 80px;
 }
 
-.about-me img {
+.content-container {
+  padding: 0 60px 0 60px;
+}
+
+.centered-image img {
   width: 100%;
   height: auto;
 }
@@ -92,6 +96,10 @@ footer {
 
 small {
   font-size: 10px;
+}
+
+.contact-color {
+  color: #662eed;
 }
 
 @media (max-width: 992px) {
@@ -140,8 +148,13 @@ small {
     margin: 120px 50px 50px 50px;
   }
 
-  .about-me p {
-    padding: 20px 20px 0px 20px;
+  .content-container p,
+  h4 {
+    text-align: center;
+  }
+
+  .content-container {
+    padding: 0 20px 0 20px;
   }
 
   .button {
