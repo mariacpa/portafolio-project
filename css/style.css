@@ -24,6 +24,10 @@ h3 {
   font-size: 26px;
 }
 
+h4 {
+  font-size: 24px;
+}
+
 .navbar-font {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -67,18 +71,13 @@ a {
   color: #f8f9fa;
 }
 
-.about-me {
-  margin: 120px 0 40px 0;
+.margin-all {
+  margin: 120px 80px 80px 80px;
 }
 
-.about-info {
-  padding: 40px 250px;
+.about-me img {
   width: 100%;
   height: auto;
-}
-
-.all-began-info {
-  padding: 40px 120px;
 }
 
 .all-began-color p {
@@ -93,10 +92,6 @@ footer {
 
 small {
   font-size: 10px;
-}
-
-.services {
-  margin: 120px 100px;
 }
 
 @media (max-width: 992px) {
@@ -119,15 +114,21 @@ small {
 
   h3 {
     font-size: 20px;
+    text-align: center;
+  }
+
+  h4 {
+    font-size: 18px;
+    text-align: justify;
   }
 
   p {
     font-size: 14px;
+    text-align: justify;
   }
 
   .all-began-info {
     padding: 20px 50px;
-    text-align: center;
   }
 
   .all-began-color p {
@@ -135,17 +136,15 @@ small {
     border-radius: 4px;
   }
 
-  .about-me {
-    margin: 120px 0 10px 0;
-  }
-
-  .about-info {
-    padding: 0;
-    text-align: center;
-    margin: 0;
+  .margin-all {
+    margin: 120px 50px 50px 50px;
   }
 
   .about-me p {
-    padding: 20px 40px;
+    padding: 20px 20px 0px 20px;
+  }
+
+  .button {
+    margin: 0 auto;
   }
 }
